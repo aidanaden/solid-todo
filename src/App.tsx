@@ -118,7 +118,7 @@ const App: Component = () => {
         toggleAll={toggleAll}
       />
       <Show when={state.todos.length > 0}>
-        <ul class="w-full mt-4">
+        <ul class="w-full">
           <For each={filterList(state.todos)}>
             {(todo) => (
               <li>

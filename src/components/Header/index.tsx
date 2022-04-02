@@ -1,6 +1,6 @@
 export default function index(props) {
   return (
-    <header>
+    <header class="mb-4">
       <h1 class="w-full text-center text-7xl py-8 text-gray-300">todos</h1>
       <div class="relative">
         <input
