@@ -190,7 +190,7 @@ const App: Component = () => {
                   type="radio"
                   name="radio-1"
                   class="radio checked:bg-gray-700"
-                  checked
+                  checked={showModeValue == ShowMode.ALL ? true : false}
                   onClick={() => setShowMode(showModeValue)}
                 />
               </label>
